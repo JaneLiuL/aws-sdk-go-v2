@@ -101,6 +101,7 @@ const (
 	BucketLocationConstraintEuWest3      BucketLocationConstraint = "eu-west-3"
 	BucketLocationConstraintMeSouth1     BucketLocationConstraint = "me-south-1"
 	BucketLocationConstraintSaEast1      BucketLocationConstraint = "sa-east-1"
+	BucketLocationConstraintUsEast1      BucketLocationConstraint = "us-east-1"
 	BucketLocationConstraintUsEast2      BucketLocationConstraint = "us-east-2"
 	BucketLocationConstraintUsGovEast1   BucketLocationConstraint = "us-gov-east-1"
 	BucketLocationConstraintUsGovWest1   BucketLocationConstraint = "us-gov-west-1"
@@ -134,6 +135,7 @@ func (BucketLocationConstraint) Values() []BucketLocationConstraint {
 		"eu-west-3",
 		"me-south-1",
 		"sa-east-1",
+		"us-east-1",
 		"us-east-2",
 		"us-gov-east-1",
 		"us-gov-west-1",
